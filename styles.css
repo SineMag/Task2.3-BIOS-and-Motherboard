@@ -1,31 +1,32 @@
 html {
-    background-color: #252ACE;
-    color: #dddee6;
-    width: 100%;
-    border-radius: 0.1rem;
+    background-color: rgb(55, 55, 216);
+    color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
-  
 
 }
-li {
-    list-style:none;
-}
-.flex-container {
-    box-sizing: content-box;
-
-}
-.flex-container {
-    display:flex;
-    border: #dddee6;
-    padding: 10%;
-    margin: 10%;
-
-}
-.header {
+header {
     text-align: center;
+}
+ .row {
+    border-color: aliceblue;
+    display: grid;
+    flex-direction: column;
+ }
+ .menu {
+    list-style: none;
+    text-indent: 50%;
+    border-top-width: 15%;
+    color: rgb(211, 186, 139);
+ }
+ 
+ .flex-box {
+    border: 1px solid whitesmoke;
 
-}
-li {
-    left:50% ;
-    color: #dfdf1a;
-}
+ }
+ .navbar {
+    border: 1px solid whitesmoke;
+ }
+
+ .row {
+    border: 1px solid whitesmoke;
+ }
