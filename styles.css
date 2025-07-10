@@ -1,0 +1,12 @@
+html {
+    background-color: #252ACE;
+    color: #dddee6;
+}
+li {
+    margin-top: 1.5rem;
+    list-style: none;
+}
+.flex-container {
+    box-sizing: content-box;
+
+}
