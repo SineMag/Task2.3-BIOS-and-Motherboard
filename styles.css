@@ -2,6 +2,7 @@ html {
     background-color: rgb(55, 55, 216);
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
 
 }
 header {
@@ -29,4 +30,9 @@ header {
 
  .row {
     border: 1px solid whitesmoke;
+ }
+
+ footer {
+   display: inline;
+   text-align: center;
  }
