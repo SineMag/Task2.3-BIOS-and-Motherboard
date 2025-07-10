@@ -1,9 +1,14 @@
 html {
     background-color: #252ACE;
     color: #dddee6;
+    width: 100%;
+    border-radius: 0.1rem;
+    font-family: 'Courier New', Courier, monospace;
+  
+
 }
 li {
-    list-style: none;
+    list-style:none;
 }
 .flex-container {
     box-sizing: content-box;
@@ -11,8 +16,16 @@ li {
 }
 .flex-container {
     display:flex;
+    border: #dddee6;
+    padding: 10%;
+    margin: 10%;
+
 }
 .header {
     text-align: center;
-    
+
+}
+li {
+    left:50% ;
+    color: #dfdf1a;
 }
